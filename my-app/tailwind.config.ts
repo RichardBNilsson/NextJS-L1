@@ -20,6 +20,11 @@ const config = {
       },
     },
     extend: {
+      colors: {
+        blue: {
+          100: "#B4C6EE"
+        }
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
